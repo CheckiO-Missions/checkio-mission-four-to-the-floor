@@ -206,7 +206,11 @@ TESTS = {
         {
             "input": [[300, 150], [[40, 60, 240], [240, 140, 100], [295, 10, 50]]],
             "answer": False
-        }        
+        },
+        {
+            "input": [[2, 2], [[2,0,1],[0,0,1],[0,1,1]],
+            "answer": False
+        }
         
     ],
     "Randoms": make_random_test_test(10)
